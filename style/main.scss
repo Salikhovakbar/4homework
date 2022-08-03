@@ -38,6 +38,23 @@ color: #000000;
         display: flex;
         list-style: none;
     }
+    .phone_version{
+        padding: 12px 13px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+background: #3CC8AE;
+box-shadow: 0px 12px 24px rgba(60, 200, 174, 0.5);
+border-radius: 3px;
+display: none;
+text-align: center;
+letter-spacing: 1.18462px;
+text-transform: uppercase;
+color: #FFFFFF;
+    }
     a{
         text-decoration: none;
         font-family: 'Roboto';
@@ -59,7 +76,7 @@ color: #000000;
     .vector{
         margin-bottom: 5px;
     }
-    button{
+    .comp_version{
         padding: 15px 23px 15px 51px;
         display: flex;
         align-items: center;
@@ -475,12 +492,61 @@ text-align: center;
 letter-spacing: 1.29231px;
 text-transform: uppercase;
 position: absolute;
-right: -288px;
+right: 50px;
 color: #FFFFFF;
 }
 .last_step{
     width: 100%;
     height: 135px;
     background: #0F1B25;
-
+p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: -0.1625px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.4;
+text-align: center;
 }
+.texts{
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    padding-top: 32px;
+}
+}
+@media (max-width: 500px ){
+    p{
+        font-size: 7px;
+    }
+.logo_part{
+    left: 0;
+}
+.HERO_picture{
+    background-size: cover;
+}
+.hero_part{
+    margin-left: 120px;
+}
+.li{
+display: none;
+}
+.hero_plt{
+    display: none;
+}
+.comp_version{
+    display: none;
+}
+.phone_version{
+display: inline;
+}
+.logo{
+    position: absolute;
+    left: 0;
+}
+}
+
